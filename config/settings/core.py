@@ -13,9 +13,10 @@ except ImportError:
     # Uzum
     UZUM_SERVICE_ID = 123
     # Alif
-    ALIF_BASE_URL = "https://checkout-dev.alifpay.uz"
+    ALIF_BASE_URL = "https://api-dev.alifpay.uz/v2"
     ALIF_TOKEN = ""
     ALIF_KEY = ""
+    ALIF_SECRET_KEY = ""
     #
     DATABASES = {
         "default": {

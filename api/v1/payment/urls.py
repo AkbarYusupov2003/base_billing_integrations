@@ -15,6 +15,6 @@ urlpatterns = [
     path("generate-link/alif", views.GenerateAlifLinkView.as_view()),
     path("alif-merchant/get-invoice/", views.AlifGetInvoiceAPIView.as_view()),
     path("alif-merchant/refundInvoice/", views.AlifRefundInvoiceAPIView.as_view()),
-    # path("alif-merchant/sendInvoice/", views),
+    path("alif-merchant/sendInvoice/", views.AlifSendInvoiceAPIView.as_view()),
     path("alif-merchant/webhook", views.AlifWebhookAPIView.as_view()),
 ]
